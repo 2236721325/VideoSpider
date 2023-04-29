@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoSpider", "VideoSpider\VideoSpider.csproj", "{3780262A-3455-4B25-A0B8-C225A851850C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoSpider", "VideoSpider\VideoSpider.csproj", "{3780262A-3455-4B25-A0B8-C225A851850C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{5A8C11B9-B2E6-40A9-BBF2-1B108B159275}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
