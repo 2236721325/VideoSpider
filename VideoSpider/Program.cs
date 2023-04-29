@@ -40,7 +40,11 @@ namespace VideoSpider
             Console.WriteLine("然后 你只需要 用m3u8 下载器就可以把想看的视频下载下来了");
 
 
-
+            while (true)
+            {
+                Console.ReadLine();
+                Console.WriteLine("关不掉关不掉");
+            }
             
 
         }
