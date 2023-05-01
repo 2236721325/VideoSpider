@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决�
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoSpiderCli", "VideoSpider.Cli\VideoSpiderCli.csproj", "{DB71F843-52EE-4154-93E7-2C6E025DFF99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{3780262A-3455-4B25-A0B8-C225A851850C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3780262A-3455-4B25-A0B8-C225A851850C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3780262A-3455-4B25-A0B8-C225A851850C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB71F843-52EE-4154-93E7-2C6E025DFF99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB71F843-52EE-4154-93E7-2C6E025DFF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB71F843-52EE-4154-93E7-2C6E025DFF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB71F843-52EE-4154-93E7-2C6E025DFF99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

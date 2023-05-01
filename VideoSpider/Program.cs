@@ -11,21 +11,21 @@ namespace VideoSpider
         {
 
 
-            Console.WriteLine("请输入电影名称？（此次为超级搜索 所以信息都包括 所以会很慢。。。。 好吧 是我懒得写了）只搜索前3项");
+            //Console.WriteLine("请输入电影名称？（此次为超级搜索 所以信息都包括 所以会很慢。。。。 好吧 是我懒得写了）只搜索前3项");
 
-            var name=Console.ReadLine();
+            //var name=Console.ReadLine();
 
             var spider = new VideoSpiderService();
-            var results = await spider.SearchAsync(name.Trim());
-            var json = JsonSerializer.Serialize(results, new JsonSerializerOptions()
-            {
-                Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
-                WriteIndented = true
-            });
-            Console.WriteLine("结果------------>");
-            Console.WriteLine(json);
+            //var results = await spider.SearchAsync(name.Trim());
+            //var json = JsonSerializer.Serialize(results, new JsonSerializerOptions()
+            //{
+            //    Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
+            //    WriteIndented = true
+            //});
+            //Console.WriteLine("结果------------>");
+            //Console.WriteLine(json);
 
-            Console.WriteLine("获取m3u8地址------------>");
+            //Console.WriteLine("获取m3u8地址------------>");
 
             Console.WriteLine("请输入电影播放地址");
             var adress=Console.ReadLine();

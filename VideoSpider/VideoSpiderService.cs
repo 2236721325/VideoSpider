@@ -87,8 +87,7 @@ namespace VideoSpider
                     var address_List = result_url[i].SelectNodes(".//a[@class='module-play-list-link']")
                         .Select(e =>
                         {
-                            return new PlayAdress(_base_url + e.Attributes["href"].Value, e.Attributes["title"].Value
-                                 );
+                            return new PlayAdress(_base_url + e.Attributes["href"].Value, e.Attributes["title"].Value);
                         });
 
                     playerAddressCollection.Add(new PlayerAddressCollection(source, address_List.ToList()));

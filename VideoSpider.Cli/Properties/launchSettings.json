@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "VideoSpider.Cli": {
+      "commandName": "Project",
+      "commandLineArgs": "batchDownload https://www.netfly.tv/vod/detail/83996.html"
+    }
+  }
+}
