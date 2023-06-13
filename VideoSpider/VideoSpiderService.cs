@@ -22,7 +22,6 @@ namespace VideoSpider
                 HtmlDocument doc = new HtmlDocument();
                 doc.Load(await response.Content.ReadAsStreamAsync());
 
-
                 var div_result = doc.DocumentNode.SelectSingleNode("//div[@class='module-items module-card-items']");
                 if (div_result == null)
                 {
@@ -36,7 +35,7 @@ namespace VideoSpider
                 foreach (var node in div_results)
                 {
                     var type = node.SelectSingleNode("./div[@class='module-card-item-class']").InnerHtml.Trim();
-                    var url = _base_url + node.SelectSingleNode("./a[@class='module-card-item-poster']").Attributes["href"].Value;
+                    var url = _base_url + node.SelectSingleNode("./a[@class='module-card-item-poster']").Attributes[name: "href"].Value;
                     var div_info = node.SelectSingleNode("./div[@class='module-card-item-info']");
                     var title = div_info.SelectSingleNode("./div[@class='module-card-item-title']").InnerText.Trim();
                     var info_node = div_info.SelectNodes(".//div[@class='module-info-item-content']");

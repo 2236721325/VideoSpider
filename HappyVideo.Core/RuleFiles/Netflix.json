@@ -1,0 +1,21 @@
+{
+  "SourceUrl": "https://www.netfly.tv",
+  "SourceName": "奈菲影视",
+  "SearchUrl": "/vod/search/-------------.html?wd={key}",
+  "SearchListRule": {
+    "XPath": "//div[@class='module-card-item module-item']"
+  },
+  "UrlRule": {
+    "XPath": "./a[@class='module-card-item-poster']",
+    "AttributeSelector": "href"
+  },
+  "ImagePathRule": {
+    "XPath": ".//div[@class='module-item-pic']/img",
+    "AttributeSelector": "src"
+  },
+  "VideoNameRule": {
+    "XPath": ".//div[@class='module-card-item-title']/a/strong"
+  }
+
+}
+

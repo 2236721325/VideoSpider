@@ -2,6 +2,4 @@
 {
     public record PlayAdress(string Url, string Title);
 
-
-
 }

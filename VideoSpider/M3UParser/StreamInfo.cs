@@ -14,6 +14,6 @@ namespace VideoSpider.M3UParser
         public int ResolutionWidth { get; internal set; }
         public int ResolutionHeight { get; internal set; }
     }
-
+.
 
 }

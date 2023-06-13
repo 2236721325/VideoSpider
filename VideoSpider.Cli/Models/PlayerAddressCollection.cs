@@ -2,6 +2,4 @@
 {
     public record PlayerAddressCollection(string SourceType, List<PlayAdress> PlayAdresses);
 
-
-
 }
